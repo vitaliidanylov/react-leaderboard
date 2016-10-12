@@ -1,0 +1,76 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css')
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+$roboto: 'Roboto', sans-serif;
+
+.content
+	content: ""
+	position: fixed
+	left: 0
+	right: 0
+	z-index: -1
+	display: block
+	background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/04/Download-yosemite-wallpaper-night-images.jpg')
+	background-size: cover
+	width: 100%
+	height: 100%
+	overflow: auto
+	
+.table
+	background-color: white
+	margin: 50px auto
+	border-collapse: collapse
+	text-align: center
+	width: 800px
+	font-family: $roboto
+	box-shadow: 0 0 30px #AAA
+	display: block-inline
+	thead
+		th
+			line-height: 3em
+			font-size: 1.2em
+			background-color: #6C6060
+			color: #fff
+			a
+				color: white
+				text-decoration: none
+				&:hover
+					color: black
+					text-shadow: 0 0 20px black
+	tbody
+		color: black
+		tr:nth-child(odd)
+			background-color: rgba(200,100,100,.1)
+		tr
+			a
+				color: black
+				text-decoration: none
+				&:hover
+					color: white
+					text-shadow: 0 0 20px blue
+			&:hover
+				background-color: rgba(100,70,70,0.5)
+				color: white
+
+			
+
+
+
+img
+	height: 50px
+	width: 50px
+	vertical-align: middle
+	border-radius: 50%
+
+tr
+	width: 100%
+	td
+		:first-child
+			width: 50px
+
+.userlink a
+	color: black
+	text-decoration: none
+
+
+
+	
